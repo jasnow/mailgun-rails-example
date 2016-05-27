@@ -1,1 +1,29 @@
 /config/local_env.yml
+log/*# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+/.DS_Store
+/coverage/**
+
+app/.DS_Store
+
+app/assets/.DS_Store
+
+app/assets/images/.DS_Store
+
+# This file is a development/test hack to load environment variables from .env
+# See https://github.com/bkeepers/dotenv
+.env
+app/controllers/.DS_Store
+
+app/views/.DS_Store
