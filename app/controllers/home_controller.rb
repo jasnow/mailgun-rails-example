@@ -7,10 +7,6 @@ class HomeController < ApplicationController
     # Get message value from form
     @message = params
 
-
-
-
-
     # Check if SMTP
     if @message[:mode] == "SMTP"
 
@@ -20,9 +16,6 @@ class HomeController < ApplicationController
       # Redirect on success
       redirect_to root_path, notice: 'Message was sent via SMTP.'
 
-
-
-
     # Else send via API
     else
 
@@ -31,7 +24,8 @@ class HomeController < ApplicationController
 
       # Define your message parameters
       html_output = render_to_string template: "notifier/send_email"
-      message_params = {:from    => 'Mailgun Test Project <postmaster@' + ENV['MAILGUN_DOMAIN'] + ">",
+      message_params = {:from    => 'Mailgun Test Project <postmaster@' +
+                                    ENV['MAILGUN_DOMAIN'] + ">",
                         :to      => @message[:to],
                         :subject => 'Mailgun message via API',
                         :text    => @message[:body],
