@@ -41,7 +41,7 @@ GEM
     arel (7.1.1)
     builder (3.2.2)
     concurrent-ruby (1.0.2)
-    domain_name (0.5.20160615)
+    domain_name (0.5.20160826)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.7.0)
