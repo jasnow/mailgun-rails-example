@@ -56,7 +56,7 @@ GEM
       thor (>= 0.14, < 2.0)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
-    mail (2.6.4)
+    mail (2.6.5)
       mime-types (>= 1.16, < 4)
     mailgun-ruby (1.1.5)
       rest-client (~> 2.0)
