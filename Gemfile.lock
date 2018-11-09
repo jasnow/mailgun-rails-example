@@ -118,7 +118,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    sass (3.7.1)
+    sass (3.7.2)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -168,4 +168,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.17.1
+   2.0.0.pre.1
