@@ -37,7 +37,5 @@ module SendEmailRuby
       user_name: ENV['MAILGUN_SMTP_USERNAME'], # CHANGE THIS
       password: ENV['MAILGUN_SMTP_PASSWORD'] # CHANGE THIS
     }
-
-    Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
   end
 end
