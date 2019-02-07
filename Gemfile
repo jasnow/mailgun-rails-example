@@ -15,7 +15,7 @@ group :doc do
 end
 
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.13' # 2/6/2019: LOCKED DOWN
 end
 
 group :production do
