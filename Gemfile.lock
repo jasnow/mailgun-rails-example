@@ -55,7 +55,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     builder (3.2.3)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     crass (1.0.4)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
