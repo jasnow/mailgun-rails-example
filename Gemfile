@@ -9,14 +9,12 @@ gem 'turbolinks'
 
 gem 'mailgun-ruby', require: 'mailgun'
 
-group :doc do
+#group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   # gem 'sdoc', require: false
-end
+#end
 
-group :development do
-  gem 'sqlite3'
-end
+gem 'sqlite3'
 
 group :production do
   gem 'pg'
