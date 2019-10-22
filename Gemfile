@@ -6,6 +6,7 @@ gem 'sassc-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'brakeman'
 
 gem 'mailgun-ruby', require: 'mailgun'
 
