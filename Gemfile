@@ -17,6 +17,7 @@ gem 'mailgun-ruby', require: 'mailgun'
 
 gem 'sqlite3'
 
-group :production do
-  gem 'pg'
-end
+#HID on 10/3/2020
+#group :production do
+#  gem 'pg'
+#end

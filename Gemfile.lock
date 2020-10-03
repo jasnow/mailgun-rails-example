@@ -96,7 +96,6 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    pg (1.2.3)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -172,7 +171,6 @@ DEPENDENCIES
   brakeman
   jquery-rails
   mailgun-ruby
-  pg
   rails (= 6.0.3.3)
   sassc-rails
   sqlite3
