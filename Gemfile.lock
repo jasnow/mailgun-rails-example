@@ -152,6 +152,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    terser (1.1.5)
+      execjs (>= 0.3.0, < 3)
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -159,8 +161,6 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -180,8 +180,8 @@ DEPENDENCIES
   rails (= 6.1.4)
   sassc-rails
   sqlite3
+  terser
   turbolinks
-  uglifier
 
 BUNDLED WITH
    2.2.21
