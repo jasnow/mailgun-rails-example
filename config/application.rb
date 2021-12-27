@@ -37,5 +37,7 @@ module SendEmailRuby
       user_name: ENV['MAILGUN_SMTP_USERNAME'], # CHANGE THIS
       password: ENV['MAILGUN_SMTP_PASSWORD'] # CHANGE THIS
     }
+
+    config.active_record.legacy_connection_handling = false
   end
 end
