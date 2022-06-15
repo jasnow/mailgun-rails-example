@@ -100,7 +100,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
-    minitest (5.15.0)
+    minitest (5.16.0)
     net-imap (0.2.3)
       digest
       net-protocol
@@ -172,7 +172,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.3)
+    sqlite3 (1.4.4)
     strscan (3.0.3)
     terser (1.1.10)
       execjs (>= 0.3.0, < 3)
