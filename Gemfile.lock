@@ -172,7 +172,8 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.4)
+    sqlite3 (1.5.0-x86_64-darwin)
+    sqlite3 (1.5.0-x86_64-linux)
     strscan (3.0.4)
     terser (1.1.12)
       execjs (>= 0.3.0, < 3)
@@ -207,4 +208,4 @@ DEPENDENCIES
   turbolinks
 
 BUNDLED WITH
-   2.3.21
+   2.3.22
