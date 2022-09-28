@@ -70,7 +70,6 @@ GEM
     builder (3.2.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
-    digest (3.1.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.11.0)
@@ -101,20 +100,14 @@ GEM
     mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    net-imap (0.2.3)
-      digest
+    net-imap (0.3.0)
       net-protocol
-      strscan
-    net-pop (0.1.1)
-      digest
+    net-pop (0.1.2)
       net-protocol
-      timeout
     net-protocol (0.1.3)
       timeout
-    net-smtp (0.3.1)
-      digest
+    net-smtp (0.3.2)
       net-protocol
-      timeout
     netrc (0.11.0)
     nio4r (2.5.8)
     nokogiri (1.13.8-x86_64-darwin)
@@ -174,7 +167,6 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.5.0-x86_64-darwin)
     sqlite3 (1.5.0-x86_64-linux)
-    strscan (3.0.4)
     terser (1.1.12)
       execjs (>= 0.3.0, < 3)
     thor (1.2.1)
