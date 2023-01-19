@@ -3,6 +3,6 @@ class Notifier < ActionMailer::Base
 
   def send_email(message)
     @message = message
-    mail(to: @message[:to], subject: 'Mailgun message via SMTP')
+    mail(to: @message[:to], subject: "Mailgun message via SMTP")
   end
 end

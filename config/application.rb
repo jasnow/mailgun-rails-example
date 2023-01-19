@@ -1,6 +1,6 @@
-require File.expand_path('../boot', __FILE__)
+require File.expand_path("../boot", __FILE__)
 
-require 'rails/all'
+require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -21,21 +21,23 @@ module SendEmailRuby
     # config.i18n.default_locale = :de
 
     config.before_configuration do
-      env_file = File.join(Rails.root, 'config', 'local_env.yml')
-      YAML.load(File.open(env_file)).each do |key, value|
-        ENV[key.to_s] = value
-      end if File.exist?(env_file)
+      env_file = File.join(Rails.root, "config", "local_env.yml")
+      if File.exist?(env_file)
+        YAML.load(File.open(env_file)).each do |key, value|
+          ENV[key.to_s] = value
+        end
+      end
     end
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
       address: "smtp.mailgun.org",
       port: 587,
-      domain: ENV['MAILGUN_DOMAIN'], # CHANGE THIS
+      domain: ENV["MAILGUN_DOMAIN"], # CHANGE THIS
       authentication: "plain",
       enable_starttls_auto: true,
-      user_name: ENV['MAILGUN_SMTP_USERNAME'], # CHANGE THIS
-      password: ENV['MAILGUN_SMTP_PASSWORD'] # CHANGE THIS
+      user_name: ENV["MAILGUN_SMTP_USERNAME"], # CHANGE THIS
+      password: ENV["MAILGUN_SMTP_PASSWORD"] # CHANGE THIS
     }
 
     config.active_record.legacy_connection_handling = false
