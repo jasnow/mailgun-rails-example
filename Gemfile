@@ -18,6 +18,8 @@ gem "mailgun-ruby", require: "mailgun"
 gem "sqlite3"
 
 gem "standard", group: [:development, :test]
+gem "ruby_audit"
+gem "spektr"
 
 # HID on 10/3/2020
 # group :production do
