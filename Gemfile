@@ -7,6 +7,7 @@ gem "terser"
 gem "jquery-rails"
 gem "turbolinks"
 gem "brakeman"
+gem "webrick"
 
 gem "mailgun-ruby", require: "mailgun"
 
