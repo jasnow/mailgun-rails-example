@@ -25,6 +25,7 @@ app/assets/images/.DS_Store
 # See https://github.com/bkeepers/dotenv
 .env
 app/controllers/.DS_Store
+node_modules/
 
 app/views/.DS_Store
 
