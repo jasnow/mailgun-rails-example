@@ -18,6 +18,7 @@ gem "mailgun-ruby", require: "mailgun"
 
 gem "sqlite3"
 
+gem 'simplecov', require: false, group: :test
 gem "standard", group: [:development, :test]
 gem "ruby_audit"
 gem "spektr"
