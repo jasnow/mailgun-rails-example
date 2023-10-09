@@ -2,9 +2,6 @@ source "https://rubygems.org"
 
 gem "rails", "7.1.0"
 
-gem 'bigdecimal'
-gem 'mutex_m'
-
 gem "sassc-rails"
 gem "terser"
 gem "jquery-rails"
