@@ -128,7 +128,7 @@ GEM
     mailgun-ruby (1.2.13)
       rest-client (>= 2.0.2)
     marcel (1.0.2)
-    mime-types (3.5.1)
+    mime-types (3.5.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2023.1205)
     mini_mime (1.1.5)
