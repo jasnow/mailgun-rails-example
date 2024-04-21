@@ -16,7 +16,7 @@ gem "mailgun-ruby", require: "mailgun"
 # gem 'sdoc', require: false
 # end
 
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 
 gem 'simplecov', require: false, group: :test
 gem "standard", group: [:development, :test]
