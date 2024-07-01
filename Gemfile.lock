@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ruby/net-pop.git
+  revision: e8d0afe2773b9eb6a23c39e9e437f6fc0fc7c733
+  specs:
+    net-pop (0.1.2)
+      net-protocol
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -137,8 +144,6 @@ GEM
     minitest (5.24.1)
     net-imap (0.4.14)
       date
-      net-protocol
-    net-pop (0.1.2)
       net-protocol
     net-protocol (0.2.2)
       timeout
@@ -352,6 +357,7 @@ DEPENDENCIES
   brakeman
   jquery-rails
   mailgun-ruby
+  net-pop!
   rails (= 7.2.0.beta2)
   ruby_audit
   sassc-rails
